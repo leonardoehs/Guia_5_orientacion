@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Data"
+        android:elevation="16dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textColor="@color/text" />
+    <Button
+        android:id="@+id/conversation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversation"
+        android:elevation="16dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textColor="@color/text" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:elevation="16dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textColor="@color/text" />
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:elevation="16dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textColor="@color/text" />
+</LinearLayout>
